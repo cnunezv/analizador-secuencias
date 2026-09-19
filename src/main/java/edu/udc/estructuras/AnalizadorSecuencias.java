@@ -35,7 +35,11 @@ public class AnalizadorSecuencias {
             System.out.printf("Posicion %d: %d%n", indice, numeros[indice]);
         }
 
-        System.out.println("Recorrido con for-each: " + Arrays.toString(numeros));
+        System.out.println("Recorrido con for-each:");
+        for (int numero : numeros) {
+            System.out.print(numero + " ");
+        }
+        System.out.println();
         reemplazarImparesPorCero(numeros);
         multiplicarPorIndice(numeros);
         System.out.println("Luego de modificar: " + Arrays.toString(numeros));
@@ -91,6 +95,10 @@ public class AnalizadorSecuencias {
         intercambiarPrimeraYUltimaFila(matriz);
         System.out.println("Tras intercambiar la primera y ultima fila:");
         imprimirMatriz(matriz);
+
+        int[][] matrizIrregular = {{1, 2}, {3, 4, 5}, {6}};
+        System.out.println("Matriz irregular (filas de longitudes distintas):");
+        imprimirMatriz(matrizIrregular);
     }
 
     private static void imprimirMatriz(int[][] matriz) {
