@@ -1,4 +1,4 @@
-package co.edu.unicartagena.ed.ejercicio14;
+package ejercicio14;
 
 /** Lógica del ejercicio 14 sin dependencias de la interfaz de consola. */
 public class AnalizadorSecuencias {

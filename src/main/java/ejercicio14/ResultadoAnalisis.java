@@ -1,4 +1,4 @@
-package co.edu.unicartagena.ed.ejercicio14;
+package ejercicio14;
 
 /** Resultado inmutable del análisis de una secuencia numérica. */
 public class ResultadoAnalisis {
