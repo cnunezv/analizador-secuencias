@@ -1,4 +1,4 @@
-package co.edu.unicartagena.ed.matrices;
+package matrices;
 
 /** Operaciones requeridas sobre matrices de enteros. */
 public class OperacionesMatriz {

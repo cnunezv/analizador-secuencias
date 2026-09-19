@@ -1,4 +1,4 @@
-package co.edu.unicartagena.ed.arreglos;
+package arreglos;
 
 import java.util.Arrays;
 import java.util.Random;

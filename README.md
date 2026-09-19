@@ -21,14 +21,14 @@ Con Maven:
 
 ```powershell
 mvn compile
-java -cp target/classes co.edu.unicartagena.ed.Main
+java -cp target/classes Main
 ```
 
 Alternativa con JDK:
 
 ```powershell
-javac -encoding UTF-8 -d target/classes src/main/java/co/edu/unicartagena/ed/Main.java src/main/java/co/edu/unicartagena/ed/arreglos/OperacionesArreglo.java src/main/java/co/edu/unicartagena/ed/matrices/OperacionesMatriz.java src/main/java/co/edu/unicartagena/ed/ejercicio14/AnalizadorSecuencias.java src/main/java/co/edu/unicartagena/ed/ejercicio14/ResultadoAnalisis.java
-java -cp target/classes co.edu.unicartagena.ed.Main
+javac -encoding UTF-8 -d target/classes src/main/java/Main.java src/main/java/arreglos/OperacionesArreglo.java src/main/java/matrices/OperacionesMatriz.java src/main/java/ejercicio14/AnalizadorSecuencias.java src/main/java/ejercicio14/ResultadoAnalisis.java
+java -cp target/classes Main
 ```
 
 ## Git y GitHub

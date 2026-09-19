@@ -1,9 +1,7 @@
-package co.edu.unicartagena.ed;
-
-import co.edu.unicartagena.ed.arreglos.OperacionesArreglo;
-import co.edu.unicartagena.ed.ejercicio14.AnalizadorSecuencias;
-import co.edu.unicartagena.ed.ejercicio14.ResultadoAnalisis;
-import co.edu.unicartagena.ed.matrices.OperacionesMatriz;
+import arreglos.OperacionesArreglo;
+import ejercicio14.AnalizadorSecuencias;
+import ejercicio14.ResultadoAnalisis;
+import matrices.OperacionesMatriz;
 import java.util.Arrays;
 import java.util.Scanner;
 
