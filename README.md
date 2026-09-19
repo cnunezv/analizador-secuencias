@@ -1,13 +1,14 @@
-# Analizador de Secuencias Numéricas
+# Estructura de Datos Unidad 1 Protocolo Individual
 
-Proyecto Java para la Actividad Protocolo Individual de Estructura de Datos, Unidad 1.
+Proyecto Java para la Actividad 1 de Estructura de Datos. Incluye los fundamentos de arreglos y matrices, más el ejercicio 14: Analizador de Secuencias Numéricas.
 
-El programa desarrolla los fundamentos requeridos de arreglos y matrices y resuelve el ejercicio 14:
+## Contenido
 
-- Clasifica una secuencia como ascendente, descendente o desordenada.
-- Determina si la secuencia es una progresión aritmética, geométrica o ninguna.
-- Muestra una demostración de arreglos de enteros y una matriz 3x3.
-- Incluye recorridos, modificación, búsqueda lineal, suma e intercambio de filas.
+- Menú por consola para demostrar cada bloque de la actividad.
+- Operaciones de arreglos: creación, `for`, `for-each`, modificaciones independientes y búsqueda lineal.
+- Operaciones de matrices: matriz 3x3, recorrido por columnas, suma, intercambio de filas y matriz irregular.
+- Ejercicio 14: clasificación del orden y detección de progresiones aritméticas y geométricas.
+- Ocho casos de prueba precargados para la sustentación.
 
 ## Requisitos
 
@@ -20,18 +21,18 @@ Con Maven:
 
 ```powershell
 mvn compile
-java -cp target/classes edu.udc.estructuras.AnalizadorSecuencias
+java -cp target/classes co.edu.unicartagena.ed.Main
 ```
 
 Alternativa con JDK:
 
 ```powershell
-javac -encoding UTF-8 -d target/classes src/main/java/edu/udc/estructuras/AnalizadorSecuencias.java
-java -cp target/classes edu.udc.estructuras.AnalizadorSecuencias
+javac -encoding UTF-8 -d target/classes src/main/java/co/edu/unicartagena/ed/Main.java src/main/java/co/edu/unicartagena/ed/arreglos/OperacionesArreglo.java src/main/java/co/edu/unicartagena/ed/matrices/OperacionesMatriz.java src/main/java/co/edu/unicartagena/ed/ejercicio14/AnalizadorSecuencias.java src/main/java/co/edu/unicartagena/ed/ejercicio14/ResultadoAnalisis.java
+java -cp target/classes co.edu.unicartagena.ed.Main
 ```
 
 ## Git y GitHub
 
-Repositorio público: https://github.com/cnunezv/analizador-secuencias
+Repositorio actual: https://github.com/cnunezv/analizador-secuencias
 
-El historial conserva el desarrollo del ejercicio en ramas y commits separados. El enlace anterior debe incluirse en el informe junto con el enlace al video de sustentación.
+El historial conserva el desarrollo del ejercicio en ramas y commits separados. El enlace del repositorio debe incluirse en el informe junto con el enlace al video de sustentación.
