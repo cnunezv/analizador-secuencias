@@ -32,11 +32,6 @@ java -cp target/classes edu.udc.estructuras.AnalizadorSecuencias
 
 ## Git y GitHub
 
-El repositorio se creó con commits separados para cada entrega. Antes de publicar, cree un repositorio público vacío en GitHub (sin README ni .gitignore) y ejecute:
+Repositorio público: https://github.com/cnunezv/analizador-secuencias
 
-```powershell
-git remote add origin https://github.com/USUARIO/analizador-secuencias.git
-git push -u origin main
-```
-
-El enlace público de ese repositorio debe copiarse en el informe y entregarse junto con el enlace al video de sustentación.
+El historial conserva el desarrollo del ejercicio en ramas y commits separados. El enlace anterior debe incluirse en el informe junto con el enlace al video de sustentación.
